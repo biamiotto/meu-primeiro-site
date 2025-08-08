@@ -17,7 +17,7 @@ body {
 header {
     background-color: rgb(243, 147, 195);
     color: rgb(236, 48, 76);
-    padding: 60px;
+    padding: 55px;
     text-align: center;
 }
 
@@ -45,7 +45,7 @@ about-section, hobbies {
 }
 
 .texto-sobre-mim {
-    font-size: 25px;
+    font-size: 21px;
 }
 
 hobbies {
