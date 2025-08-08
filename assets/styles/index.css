@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Indie+Flower&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+    
 
-/* Reset do CSS */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* { 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
 }
 
 /* Configurações gerais */
@@ -23,7 +23,7 @@ header {
 }
 
 main {
-    background-color: rgb(248, 212, 242);
+    background-color: rgb(243, 193, 235);
     flex: 1;
     padding: 48px 38px;
     width: 100%;
@@ -31,7 +31,7 @@ main {
 
 about-section {
     display: block;
-    background-color: rgb(229, 173, 236);
+    background-color: rgb(243, 238, 241);
     width: 80%;
     margin: 0 auto;
     padding: 40px;
@@ -39,10 +39,10 @@ about-section {
 }
 
 #titulo-sobre-mim {
-    font-size: 50px;
-    border-bottom: 2px solid rgb(235, 9, 223);
+    font-size: 40px;
+    border-bottom: 2px solid rgb(235, 109, 228);
     margin-top: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 .texto-sobre-mim {
