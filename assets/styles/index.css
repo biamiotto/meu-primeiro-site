@@ -17,8 +17,9 @@ body {
 header {
     background-color: rgb(243, 147, 195);
     color: rgb(236, 48, 76);
-    padding: 55px;
+    padding: 60px;
     text-align: center;
+    font-size: 18px;
 }
 
 main {
@@ -40,12 +41,12 @@ about-section, hobbies {
 
 #titulo-sobre-mim {
     font-size: 25px;
-    border-bottom: 2px solid rgb(235, 109, 228);
+    border-bottom: 2px solid rgb(229, 157, 226);
     margin-bottom: 5px;
 }
 
 .texto-sobre-mim {
-    font-size: 21px;
+    font-size: 20px;
 }
 
 hobbies {
@@ -66,9 +67,9 @@ ul {
 }
 
 li {
-    background-color: rgb(238, 167, 232);
+    background-color: rgb(238, 196, 234);
     padding: 12px;
-    border-left: 4px solid rgb(223, 92, 228);
+    border-left: 4px solid rgb(238, 145, 222);
     font-size: 16px;
     min-width: 250px;
 }
@@ -81,6 +82,45 @@ li:hover {
 
 #titulo-hobbies {
     font-size: 25px;
-    border-bottom: 2px solid rgb(241, 143, 237);
+    border-bottom: 2px solid rgb(236, 119, 232);
     margin-bottom: 10px;
+}
+
+contact {
+    display: block;
+    background-color: rgb(243, 238, 241);
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+contact h2 {
+    margin-bottom: 80x;
+    font-size: 25px;
+    text-align: center;
+}
+
+contact p {
+    text-align: center;
+    font-size: 20px;
+}
+
+contact a {
+    color:rgb(241, 111, 176);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border: 2px solid rgb(241, 111, 176);
+    border-radius: 25px;
+    display: inline-block;
+}
+
+contact a:hover {
+    background-color: rgb(241, 111, 176);;
+    color: aliceblue; 
+    transform: translateY(-2px);
 }
