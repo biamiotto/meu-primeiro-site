@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Indie+Flower&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
- 
+
 *{ 
    margin: 0;
    padding: 0;
@@ -29,7 +29,7 @@ main {
     width: 100%;
 }
 
-about-section, hobbies {
+about-section, hobbies, contact {
     display: block;
     background-color: rgb(243, 238, 241);
     width: 80%;
@@ -39,7 +39,8 @@ about-section, hobbies {
     margin-bottom: 30px;
 }
 
-#titulo-sobre-mim {
+/* Títulos */
+#titulo-sobre-mim, #titulo-hobbies {
     font-size: 25px;
     border-bottom: 2px solid rgb(229, 157, 226);
     margin-bottom: 5px;
@@ -47,16 +48,6 @@ about-section, hobbies {
 
 .texto-sobre-mim {
     font-size: 20px;
-}
-
-hobbies {
-    display: block;
-    background-color: rgb(243, 238, 241);
-    width: 80%;
-    margin: 0 auto;
-    padding: 40px;
-    border-radius: 12px;
-    margin-bottom: 30px;
 }
 
 ul {
@@ -80,25 +71,12 @@ li:hover {
     transition: all 0.3s ease;
 }
 
-#titulo-hobbies {
-    font-size: 25px;
-    border-bottom: 2px solid rgb(236, 119, 232);
-    margin-bottom: 10px;
-}
-
 contact {
-    display: block;
-    background-color: rgb(243, 238, 241);
-    width: 80%;
-    margin: 0 auto;
-    padding: 40px;
-    border-radius: 12px;
-    margin-bottom: 30px;
     margin-top: 40px;
 }
 
 contact h2 {
-    margin-bottom: 80x;
+    margin-bottom: 80px;
     font-size: 25px;
     text-align: center;
 }
@@ -109,7 +87,7 @@ contact p {
 }
 
 contact a {
-    color:rgb(241, 111, 176);
+    color: rgb(241, 111, 176);
     text-decoration: none;
     font-weight: bold;
     padding: 0.5rem 1rem;
@@ -120,13 +98,13 @@ contact a {
 }
 
 contact a:hover {
-    background-color: rgb(241, 111, 176);;
+    background-color: rgb(241, 111, 176);
     color: aliceblue; 
     transform: translateY(-2px);
 }
 
 footer {
-    background-color:rgb(243, 238, 241);
+    background-color: rgb(243, 238, 241);
     text-align: center;
     padding: 1rem;
     width: 100%;
@@ -135,4 +113,71 @@ footer {
 footer p {
     font-size: 17px;
 }
+
+/* Media Queries para Responsividade */
+
+@media (max-width: 768px) {
+    header {
+        padding: 40px 20px;
+    }
+
+    main {
+        padding: 30px 20px;
+    }
+
+    about-section, hobbies, contact {
+        width: 90%;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        min-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    contact h2 {
+        font-size: 22px;
+    }
+
+    contact p {
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 22px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    #titulo-sobre-mim, #titulo-hobbies {
+        font-size: 20px;
+    }
+
+    .texto-sobre-mim {
+        font-size: 18px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    contact a {
+        padding: 0.4rem 0.8rem;
+    }
+}
+
 
